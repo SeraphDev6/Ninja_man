@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="functions.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>NinjaMan</title>
+</head>
+<body onload="buildWorld()">
+    <div id="play-area">
+
+    </div>
+    <div id="ninja"></div>
+    <div id="ghost0"></div>
+    <div id="ghost1"></div>
+    <div id="ghost2"></div>
+    <div id="ghost3"></div>
+    <div id="score">Score: 0</div>
+    <div id="lives-div"></div>
+    <div id="title">
+        <h1>NinjaMan</h1>
+        <input type="image" name="play-button" src="img/play.png" alt="play button" onclick="playButtonHit()" id="play-button">
+    </div>
+    <audio id="yum">
+        <source src="audio/yum.mp3" type="audio/mp3">
+    </audio>
+    <audio id="oh-no">
+        <source src="audio/oh__no.mp3" type="audio/mp3">
+    </audio>
+    <audio id="chomp">
+        <source src="audio/chomp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="nmm">
+        <source src="audio/NinjaManMusic.mp3" type="audio/mp3"> 
+    </audio>
+
+</body>
+</html>

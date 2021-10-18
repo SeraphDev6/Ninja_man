@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#play-area{
+    position: absolute;
+    display:grid;
+    grid-template-columns: repeat(17,45px);
+    grid-template-rows: repeat(13,45px);
+    margin: 0;
+    padding:0;
+    column-gap: 0px;
+    row-gap: 0px;
+
+}
+.path{
+    height: 45px;
+    width: 45px;
+    background-color: black;
+}
+.wall{
+    height: 45px;
+    width: 45px;
+    background-color: blue;
+}
+.onigiri{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    background-image:url("img/onigiri.png");
+    background-repeat: no-repeat;
+}
+.sushi{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    background-image:url("img/sushi.png");
+    background-repeat: no-repeat;
+}
+#ninja{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top:50px;
+    left: 50px;
+    background-image:url("img/ninja.gif");
+    background-repeat: no-repeat;
+}
+#score{
+    position: absolute;
+    z-index: 3000;
+    top: 10px;
+    left: 15px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+    font-family: "Lucidia Console" ,monospace;
+    font-size: 20px;
+}
+#ghost0{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top:50px;
+    left: 50px;
+    background-image:url("img/bluey.gif");
+    background-repeat: no-repeat;
+}
+#ghost1{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top:50px;
+    left: 50px;
+    background-image:url("img/red.gif");
+    background-repeat: no-repeat;
+}#ghost2{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top:50px;
+    left: 50px;
+    background-image:url("img/pinky.gif");
+    background-repeat: no-repeat;
+}#ghost3{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top:50px;
+    left: 50px;
+    background-image:url("img/pumpky.gif");
+    background-repeat: no-repeat;
+}
+.lives{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background-image:url("img/ninja.gif");
+    background-repeat: no-repeat;
+}
+#lives1{
+    top: 5px;
+    left:635px;
+}
+#lives2{
+    top: 5px;
+    left:680px;
+}
+#lives3{
+    top: 5px;
+    left:725px;
+}
+#title{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 765px;
+    height: 405px;
+}
+#title h1{
+    letter-spacing: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:black;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+#play-button{
+position: absolute;
+top: 140px;
+left: 318px;
+}
+.scared{
+    background-image: url("img/scaredy.png") !important;
+}
